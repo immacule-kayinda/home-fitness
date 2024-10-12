@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Urbanist:700,600,300,800,400|Belanosima:400,600");
+
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/670a7e4cb5ba9a4d0e13a7ad.670a7e4db5ba9a4d0e13a7b4.jLYLvub.hch.png");
+
+@layer base {
+    :root {
+        --abbey: #4d4d4d;
+        --black: #000000;
+        --bubble-gum: #ffbffd;
+        --cosmic: #673769;
+        --gravel: #483e4e;
+        --light-orchid: #e19ce4;
+        --light-orchid-2: #e19de5;
+        --mercury: #e6e6e6;
+        --mortar: #504657;
+        --mortar-2: #4b4052;
+        --mountain-mist: #999999;
+        --norway: #9eb4a0;
+        --scarpa-flow: #5e4d67;
+        --snuff: #dfcbeb;
+        --spring-rain: #afcab2db;
+        --white: #ffffff;
+        --font-size-l: 39px;
+        --font-size-m: 20px;
+        --font-size-s: 15px;
+        --font-size-xs: 13px;
+        --font-size-xxs: 12px;
+        --font-size-xxxs: 10px;
+        --font-size-xxxxs: 9px;
+        --font-family-belanosima: "Belanosima", Helvetica;
+        --font-family-urbanist: "Urbanist", Helvetica;
+    }
+}
+
+@layer components {
+    .tab-link {
+        @apply rounded-full flex px-11 w-full items-center
+    }
+
+    .tab-link:hover {
+        @apply bg-tab-hover
+    }
+}
+
+.hide-scroll-bar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.hide-scroll-bar::-webkit-scrollbar {
+    display: none;
+}
