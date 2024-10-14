@@ -591,10 +591,6 @@ video {
   padding-right: 2.75rem;
 }
 
-.tab-link > * {
-  flex-direction: column;
-}
-
 .tab-link:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(102 83 111 / var(--tw-bg-opacity));
@@ -999,10 +995,6 @@ video {
     padding-right: 2.75rem;
   }
 
-  .lg\:tab-link > * {
-    flex-direction: column;
-  }
-
   .lg\:tab-link:hover {
     --tw-bg-opacity: 1;
     background-color: rgb(102 83 111 / var(--tw-bg-opacity));
@@ -1026,11 +1018,6 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
   .sm\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
