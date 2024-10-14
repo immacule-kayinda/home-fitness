@@ -654,6 +654,10 @@ video {
   left: 1.25rem;
 }
 
+.top-0 {
+  top: 0px;
+}
+
 .z-30 {
   z-index: 30;
 }
@@ -701,6 +705,10 @@ video {
 .h-fit {
   height: -moz-fit-content;
   height: fit-content;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-96 {
@@ -1093,6 +1101,18 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:sticky {
+    position: sticky;
+  }
+
+  .lg\:bottom-0 {
+    bottom: 0px;
+  }
+
+  .lg\:top-0 {
+    top: 0px;
+  }
+
   .lg\:mb-0 {
     margin-bottom: 0px;
   }
