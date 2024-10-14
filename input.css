@@ -46,6 +46,18 @@
     .tab-link:hover {
         @apply bg-tab-hover
     }
+
+    .mediumtab-link {
+        @apply sticky hidden lg:hidden shadow-front/15 border-t shadow-2xl *:hidden *:opacity-0 *:absolute *:right-0 w-28 h-28 p-0 rounded-2xl  right-5 
+    }
+
+    .mediumtab-link-clicked {
+        @apply hidden md:flex lg:hidden
+    }
+
+    .log {
+        @apply text-white text-xl font-bold p-4 text-center
+    }
 }
 
 .hide-scroll-bar {
